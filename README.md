@@ -3,13 +3,14 @@
 A small python script that generates a fasta file with correctly annotated decoys from spectraST's decoy-generation log file.
 
 ## Installation
-- a working python installation (~= 3.5) is required. 
+- a working python installation (~= 3.5) is required
 - ensure that the packages fuzzywuzzy and biopython are available on you computer
 - download the file SpectraST_DECOY_Fasta.py
 
 ## Application
 - open a comand window and navigate to the folder where SpectraST_DECOY_Fasta.py is stored
-- type ```SpectraST_DECOY_Fasta.py -f path\to\target_only_fasta -l path\to\decoy_generation_log_file\Decoy_generation_log.txt -o \path\to\outfile\out_basename```
+- type <br>
+```SpectraST_DECOY_Fasta.py -f path\to\target_only_fasta -l path\to\decoy_generation_log_file\Decoy_generation_log.txt -o \path\to\outfile\out_basename``` <br>
 This comand will load the log file of the decoy generation and create a fasta file with target and decoy entries for all proteins present in the spectral library.
 
 ## Options
