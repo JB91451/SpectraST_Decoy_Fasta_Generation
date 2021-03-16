@@ -10,7 +10,7 @@ A small python script that generates a fasta file with correctly annotated decoy
 ## Application
 - open a comand window and navigate to the folder where SpectraST_DECOY_Fasta.py is stored
 - type <br>
-```SpectraST_DECOY_Fasta.py -f path\to\target_only_fasta\fasta.fasta -l path\to\decoy_generation_log_file\Decoy_generation_log.txt -o \path\to\outfile\out_basename``` <br>
+```SpectraST_DECOY_Fasta.py -f path\to\fasta_file\fasta.fasta -l path\to\decoy_generation_log_file\Decoy_generation_log.txt -o \path\to\outfile\out_basename``` <br>
 This comand will load the log file of the decoy generation and create a fasta file with target and decoy entries for all proteins present in the spectral library.
 
 ## Options
