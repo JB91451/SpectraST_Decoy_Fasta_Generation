@@ -91,7 +91,7 @@ for original_peptide in original_peptide_list:
     index = [i for i, s in enumerate(proteinSeq) if original_peptide in s]
     original_peptide_index_list.append(index)
 
-separator = args. separation_string
+separator = args.separation_string
 for new_peptide, index in zip(new_peptide_list, original_peptide_index_list):
     for one_index in index:
         tmpSeq = reverse_proteinSeq[one_index] + separator + new_peptide
